@@ -5,8 +5,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 @media (min-width: 320px) {
     .navbar-brand>img {
-        height: 100px;
-        width: 160px;
+        height: 140px;
+        width: 170px;
     }
 }
 
@@ -15,7 +15,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 @media (min-width: 576px) {
     .navbar-brand>img {
-        height: 150px;
+        height: 185px;
         width: 205px;
     }
 }
@@ -25,10 +25,14 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 @media (min-width: 768px) {
     .navbar {
-        margin-top: 4.4% !important;
+        margin-top: 2% !important;
         margin-left: 4% !important;
         margin-right: 4% !important;
         width: 92% !important;
+    }
+    .navbar-brand>img {
+        height: 205px;
+        width: 235px;
     }
 }
 
