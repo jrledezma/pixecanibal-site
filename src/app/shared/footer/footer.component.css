@@ -1,0 +1,43 @@
+.footer {
+    height: 10vh !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    text-align: center
+}
+
+.social-nt-icons {
+    margin: 0 1vh 1vh 0 !important;
+    height: 2vh !important;
+    width: 2vh !important;
+}
+
+.sntw {
+    opacity: 1;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .footer {
+        position: absolute;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
