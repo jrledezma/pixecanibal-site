@@ -1,0 +1,32 @@
+/* 
+Extra small devices (portrait phones, less than 576px) 
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .navbar {
+        margin-top: 4.4% !important;
+        height: 9vh;
+        margin-left: 4% !important;
+        margin-right: 4% !important;
+        width: 92% !important;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
