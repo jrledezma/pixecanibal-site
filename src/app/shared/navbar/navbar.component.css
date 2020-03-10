@@ -11,14 +11,22 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .navbar {
+        margin-top: 4.4% !important;
+        height: 9vh;
+        margin-left: 4% !important;
+        margin-right: 4% !important;
+        width: 92% !important;
+    }
+}
 
 
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
     .navbar {
-        margin-top: 4.4% !important;
+        margin-top: 2% !important;
         height: 9vh;
         margin-left: 4% !important;
         margin-right: 4% !important;
