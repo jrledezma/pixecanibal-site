@@ -29,7 +29,7 @@
 
 @media (min-width: 768px) {
     .footer {
-        position: absolute;
+        position: fixed;
     }
 }
 

@@ -98,7 +98,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
  
  @media (min-width: 992px) {
      .fluid-content {
-         margin-top: 5%;
+         margin-top: 3%;
          margin-left: 2% !important;
          margin-right: 2% !important;
          width: 96% !important;
