@@ -1,5 +1,5 @@
 .footer {
-    margin-top: 10% !important;
+    margin-top: 5% !important;
     height: 12vh !important;
     right: 0;
     bottom: 0;
@@ -33,9 +33,7 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    .footer {
-        position: fixed;
-    }
+    .footer {}
 }
 
 

@@ -3,10 +3,10 @@ Extra small devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap because it is "mobile first"
 */
 
-@media (min-width: 320px) {
+@media (min-width: 310px) {
     .navbar-brand>img {
-        height: 140px;
-        width: 170px;
+        height: 30px;
+        width: 180px;
     }
 }
 
@@ -15,8 +15,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 @media (min-width: 576px) {
     .navbar-brand>img {
-        height: 185px;
-        width: 205px;
+        height: 54px;
+        width: 250px;
     }
 }
 
@@ -25,14 +25,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 @media (min-width: 768px) {
     .navbar {
-        margin-top: 2% !important;
         margin-left: 4% !important;
         margin-right: 4% !important;
         width: 92% !important;
-    }
-    .navbar-brand>img {
-        height: 205px;
-        width: 235px;
     }
 }
 
@@ -41,8 +36,6 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 @media (min-width: 992px) {
     .navbar {
-        margin-top: 2% !important;
-        height: 9vh;
         margin-left: 4% !important;
         margin-right: 4% !important;
         width: 92% !important;
