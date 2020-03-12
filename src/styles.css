@@ -121,6 +121,12 @@ a:hover>div {
     width: 92% !important;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 12px !important;
+    height: 13px !important;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 
