@@ -15,8 +15,7 @@ export class ProjectsComponent implements OnInit {
 
   projectDataList = (<any>projectsData).default;
 
-  constructor(private modalService: NgbModal,
-    private router: Router, ) {
+  constructor(private router: Router) {
     console.log(this.projectDataList);
   }
 

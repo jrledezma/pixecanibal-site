@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { ActivatedRoute } from '@angular/router';
-import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
+import { ActivatedRoute, Router } from '@angular/router';
 
 import * as projectData from '../../../projects.json';
 
@@ -15,17 +14,22 @@ export class ProjectsDetailComponent implements OnInit {
   projectData: any;
   projectDataId: number;
 
-  constructor(private route: ActivatedRoute) {
-  }
-
-  ngOnInit() {
+  constructor(private router: Router,
+    private route: ActivatedRoute) {
     this.projectDataId = Number.parseInt(this.route.snapshot.paramMap.get('project'));
     for (let prj of (<any>projectData).default) {
       if (prj.prjId === this.projectDataId) {
         this.projectData = prj;
-        return;
+        break;
       }
     }
+    if (this.projectData === undefined) {
+      this.router.navigate(['proyectos'])
+    }
+  }
+
+  ngOnInit() {
+
   }
 
 }
