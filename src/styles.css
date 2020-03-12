@@ -96,13 +96,13 @@ a:hover>div {
 }
 
 .project-detail {
+    margin: 2% 4.5% 18% 4.5%;
     padding-top: 1%;
-    background-color: #000E18;
-    color: #eeeeee;
+    text-align: center;
 }
 
-.modal-footer {
-    border-style: none;
+.project-detail>img {
+    height: 30vh;
 }
 
 .reel {
@@ -210,6 +210,9 @@ a:hover>div {
         height: 40vh;
         ;
     }
+    .project-detail {
+        margin-top: 18%;
+    }
     .fixed-textarea {
         height: 13rem !important;
         max-height: 13rem !important;
@@ -244,5 +247,11 @@ a:hover>div {
     .reel>img {
         height: 55vh;
         ;
+    }
+    .project-detail {
+        margin: 2% 4.5% 25% 4.5%;
+    }
+    .project-detail>img {
+        height: 55vh;
     }
 }
