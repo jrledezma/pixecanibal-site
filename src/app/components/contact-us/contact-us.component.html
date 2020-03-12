@@ -1,44 +1,47 @@
 <div class="contact-us animated fadeIn">
     <h3 class="mb-4">Contáctenos</h3>
-    <form autocomplete="off">
+    <form [formGroup]="contactForm" autocomplete="off" (ngSubmit)="sendMessage()">
 
-        <div class="form-row">
-            <div class="form-group col-sm-6">
-                <label for="name">Nombre</label>
-                <input type="text" class="form-control w-100 text-capitalize" id="name" placeholder="">
+        <div class="form-row ">
+            <div class="form-group col-sm-6 ">
+                <label for="name ">Nombre</label>
+                <input type="text " class="form-control w-100 text-capitalize " formControlName="firstName" placeholder=" ">
             </div>
-            <div class="form-group col-sm-6">
-                <label for="name">Apellido</label>
-                <input type="text" class="form-control w-100 text-capitalize" id="name" placeholder="">
+            <div class="form-group col-sm-6 ">
+                <label for="name ">Apellido</label>
+                <input type="text " class="form-control w-100 text-capitalize " formControlName="lastName" placeholder=" ">
             </div>
         </div>
 
-        <div class="form-row">
-            <div class="form-group col-sm-12">
-                <label for="name">Correo Eléctronico</label>
-                <input type="email" class="form-control w-100 text-lowercase" id="name" placeholder="">
+        <div class="form-row ">
+            <div class="form-group col-sm-12 ">
+                <label for="name ">Correo Eléctronico</label>&nbsp;
+                <span>*</span>
+                <input type="email " class="form-control w-100 text-lowercase " formControlName="email" placeholder=" ">
             </div>
         </div>
-        <div class="form-row">
-            <div class="form-group col-sm-12">
-                <label for="name">Asunto</label>
-                <input type="email" class="form-control w-100" id="name" placeholder="">
+        <div class="form-row ">
+            <div class="form-group col-sm-12 ">
+                <label for="name ">Asunto</label>&nbsp;
+                <span>*</span>
+                <input type="email " class="form-control w-100 " formControlName="subject" placeholder=" ">
             </div>
         </div>
-        <div class="form-row">
-            <div class="form-group col-sm-12">
-                <label for="name">Mensaje</label>
-                <textarea class="form-control w-100 fixed-textarea" id="name" placeholder="" maxlength="600"></textarea>
-                <div class="textArea-char-counter pull-right">
-                    <small class="">
+        <div class="form-row ">
+            <div class="form-group col-sm-12 ">
+                <label for="name ">Mensaje</label>&nbsp;
+                <span>*</span>
+                <textarea class="form-control w-100 fixed-textarea " formControlName="message" placeholder=" " maxlength="600 "></textarea>
+                <div class="textArea-char-counter pull-right ">
+                    <small class=" ">
                         0 / 600
                     </small>
                 </div>
             </div>
         </div>
-        <div class="form-row">
-            <div class="col-sm-12 mr-0">
-                <button type="button" class="btn btn-dark float-right mt-3">
+        <div class="form-row ">
+            <div class="col-sm-12 mr-0 ">
+                <button type="button " class="btn btn-dark float-right mt-3" [disabled]="contactForm.invalid">
                     Enviar
                 </button>
             </div>
