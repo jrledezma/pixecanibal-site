@@ -31,10 +31,10 @@
             <div class="form-group col-sm-12 ">
                 <label for="name ">Mensaje</label>&nbsp;
                 <span>*</span>
-                <textarea class="form-control w-100 fixed-textarea " formControlName="message" placeholder=" " maxlength="600 "></textarea>
+                <textarea class="form-control w-100 fixed-textarea " formControlName="message" placeholder=" " maxlength="600"></textarea>
                 <div class="textArea-char-counter pull-right ">
                     <small class=" ">
-                        0 / 600
+                        {{ contactForm.controls.message.value.length }} / 600
                     </small>
                 </div>
             </div>
