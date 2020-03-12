@@ -28,28 +28,28 @@
     },
     {
         "prjId": 5,
-        "name": "proyecto 1",
+        "name": "proyecto 5",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsum, non iaculis massa semper non. Etiam viverra fermentum elit a pulvinar.",
         "urlVideo": "",
         "imgUrl": "/assets/img/maincarousel1.png"
     },
     {
         "prjId": 6,
-        "name": "proyecto 2",
+        "name": "proyecto 6",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsum, non iaculis massa semper non. Etiam viverra fermentum elit a pulvinar.",
         "urlVideo": "",
         "imgUrl": "/assets/img/maincarousel2.png"
     },
     {
         "prjId": 7,
-        "name": "proyecto 3",
+        "name": "proyecto 7",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsum, non iaculis massa semper non. Etiam viverra fermentum elit a pulvinar.",
         "urlVideo": "",
         "imgUrl": "/assets/img/maincarousel3.png"
     },
     {
         "prjId": 8,
-        "name": "proyecto 4",
+        "name": "proyecto 8",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsum, non iaculis massa semper non. Etiam viverra fermentum elit a pulvinar.",
         "urlVideo": "",
         "imgUrl": "/assets/img/maincarousel4.png"

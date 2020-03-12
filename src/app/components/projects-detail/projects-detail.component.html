@@ -1,1 +1,12 @@
-<p>projects-detail works!</p>
+<div class="project-detail">
+    <div class="modal-body text-center animated fadeIn">
+        <p>{{projectData.name}}</p>
+        <br>
+        <p>{{projectData.description}}</p>
+        <br>
+        <img [src]="projectData.imgUrl" width="100%" style="margin-right: .5%; margin-left: .5%;">
+    </div>
+    <div class="modal-footer animated fadeIn slower">
+        <button type="button" class="btn btn-outline-light" (click)="activeModal.close('Close click')">Close</button>
+    </div>
+</div>
