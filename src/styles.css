@@ -114,6 +114,13 @@ a:hover>div {
     ;
 }
 
+.contact-us {
+    margin-top: 1%;
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+    width: 92% !important;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 
