@@ -28,6 +28,11 @@ form {
     margin-top: 1%;
 }
 
+iframe {
+    width: 100% !important;
+    height: 55vh !important;
+}
+
 .main-carousel {
     margin-top: 10%;
     margin-left: 5%;
@@ -111,7 +116,7 @@ a:hover>div {
 }
 
 .reel {
-    margin: 30% 4.5% 25% 4.5%;
+    margin: 5% 4.5% 15% 4.5%;
 }
 
 .reel>img {
@@ -203,7 +208,7 @@ a:hover>div {
         margin-left: 0 !important;
     }
     .reel {
-        margin-top: 20%;
+        margin-top: 10%;
     }
 }
 
@@ -260,7 +265,7 @@ a:hover>div {
         margin-top: 12%;
     }
     .reel {
-        margin: 5% 5.5% 3% 5.5%;
+        margin: 4% 5.5% 3% 5.5%;
     }
     .reel>img {
         height: 55vh;
