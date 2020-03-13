@@ -24,15 +24,6 @@
             margin: 0 7px 10px 7px !important;
             height: 22px !important;
             width: 22px !important;
-            opacity: .8 !important;
-        }
-        
-        .social-nt-icons:hover {
-            margin-top: -5px !important;
-            -webkit-transform: scale(1.2);
-            -ms-transform: scale(1.2);
-            transform: scale(1.2);
-            z-index: 100;
         }
         
         .sntw {
