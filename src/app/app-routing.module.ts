@@ -12,11 +12,11 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 const routes: Routes = [
   { path: "", component: HomeComponent },
   { path: "proyectos", component: ProjectsComponent },
-  { path: "proyecto/:project", component: ProjectsDetailComponent },
+  { path: "proyectos/:project", component: ProjectsDetailComponent },
   { path: "reel", component: ReelComponent },
   { path: "acercade", component: AboutUsComponent },
   { path: "contacto", component: ContactUsComponent },
-  { path: "**", pathMatch: "full", redirectTo: "/" }
+  { path: "**", pathMatch: "full", redirectTo: "" }
 ];
 
 @NgModule({

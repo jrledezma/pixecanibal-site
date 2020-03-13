@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit {
   }
 
   open(project: any) {
-    this.router.navigate(['proyecto', project.prjId])
+    this.router.navigate(['proyectos', project.prjId])
     /*
     const modalOptions: NgbModalOptions = {
       backdrop: true,

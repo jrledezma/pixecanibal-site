@@ -40,6 +40,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
         margin-top: -18px;
     }
     .nav-link {
+        color: #767b81;
         margin-left: 25px !important;
         margin-right: 25px !important;
     }
