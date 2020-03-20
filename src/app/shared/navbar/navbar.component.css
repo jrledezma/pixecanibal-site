@@ -4,18 +4,40 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 */
 
 .bg-dark {
-    background-color: #000E18 !important;
+    background-color: #000e18 !important;
     min-height: 85px !important;
 }
 
 @media (min-width: 310px) {
     .navbar-brand>img {
-        height: 40px;
-        width: 188px;
-        margin-bottom: 30px;
+        height: 35px;
+        width: 180px;
+    }
+    .navbar-brand {
+        margin-top: 0;
+        margin-left: 15%;
     }
     .navbar-dark .navbar-toggler {
-        margin-top: -25px !important;
+        margin-top: none !important;
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: transparent;
+    }
+}
+
+@media (min-width: 350px) {
+    .navbar-brand {
+        margin-left: 22%;
+    }
+}
+
+@media (min-width: 400px) {
+    .navbar-brand {
+        margin-left: 24.5%;
+    }
+    .navbar-brand>img {
+        height: 42px;
+        width: 195px;
     }
 }
 
@@ -24,6 +46,8 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 @media (min-width: 576px) {
     .navbar-brand>img {
+        margin-top: auto !important;
+        margin-bottom: auto !important;
         height: 54px;
         width: 250px;
     }
@@ -36,6 +60,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 
 @media (min-width: 768px) {
+    .navbar-brand>img {
+        margin-bottom: 30px;
+        margin-right: 2rem !important;
+    }
+    .navbar-brand {
+        margin-left: 33%;
+    }
     .navbar-collapse {
         margin-top: -18px;
     }
@@ -54,9 +85,57 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 
 /* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .navbar-brand {
+        margin-left: 0;
+    }
+    navbar-brand>img {
+        margin-left: 0 !important;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 3rem !important;
+    }
+    .navbar-collapse {
+        margin-top: -18px;
+    }
+    .nav-item {
+        text-align: center;
+    }
+    .nav-link {
+        color: #767b81;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+    }
+    .navbar-nav {
+        margin-top: 30px !important;
+    }
+    .desktop-navbar {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+}
 
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    navbar-brand>img {
+        margin-left: 0 !important;
+        margin-bottom: 30px;
+        margin-right: 3rem !important;
+    }
+    .navbar-collapse {
+        margin-top: -18px;
+    }
+    .nav-link {
+        color: #767b81;
+        margin-left: 25px !important;
+        margin-right: 25px !important;
+    }
+    .desktop-navbar {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+    }
+}
