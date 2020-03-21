@@ -46,7 +46,6 @@ a:visited {
 @media (min-width: 992px) {
     .footer {
         margin-top: 2% !important;
-        position: absolute;
     }
     .social-nt-icons {
         margin: 0 14px 15px 14px !important;

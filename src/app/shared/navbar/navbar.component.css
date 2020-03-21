@@ -15,10 +15,12 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
     .navbar-brand {
         margin-top: 0;
-        margin-left: 15%;
+        margin-left: 17%;
+        margin-right: 0px;
     }
     .navbar-dark .navbar-toggler {
         margin-top: none !important;
+        margin-right: -10px;
     }
     .navbar-dark .navbar-toggler {
         border-color: transparent;

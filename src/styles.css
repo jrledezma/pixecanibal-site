@@ -101,9 +101,10 @@ iframe {
 }
 
 .about-us {
-    margin-top: 4%;
+    margin-top: 10%;
     margin-left: 3%;
     margin-right: 3%;
+    margin-bottom: 15%;
 }
 
 .about-us-p {
@@ -216,17 +217,17 @@ a:hover>div {
         margin-top: 10%;
         margin-left: 19% !important;
         margin-right: 19% !important;
+        margin-bottom: 10%;
         width: 62% !important;
     }
     .project-content {
-        margin-top: 20%;
-        margin-bottom: 40%;
+        margin-top: 4% !important;
+        margin-bottom: 10% !important;
         margin-left: 4% !important;
         margin-right: 4% !important;
         width: 92% !important;
     }
     .project-img {
-        width: 20% !important;
         padding: 1px;
         margin-left: 2px;
         margin-right: 2px;
@@ -251,9 +252,10 @@ a:hover>div {
         resize: none;
     }
     .about-us {
-        margin-top: 10%;
+        margin-top: 20%;
         margin-left: 17% !important;
         margin-right: 17% !important;
+        margin-bottom: 25% !important;
         width: 66% !important;
     }
     .about-us-clients {
@@ -272,6 +274,9 @@ a:hover>div {
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    .project-img {
+        width: 100% !important;
+    }
     .fluid-content {
         margin-top: 3%;
         margin-left: 2% !important;
@@ -279,11 +284,15 @@ a:hover>div {
         width: 96% !important;
     }
     .main-carousel {
-        margin-top: 4%;
-        margin-bottom: 8% !important;
+        margin-top: 10%;
+        margin-bottom: 6% !important;
+    }
+    .project-content {
+        margin-top: 10% !important;
+        margin-bottom: 40%;
     }
     .reel {
-        margin: 20% 5.5% 3% 5.5%;
+        margin: 10% 5.5% 12% 5.5%;
     }
     .reel>img {
         height: 40vh;
@@ -298,13 +307,15 @@ a:hover>div {
     }
     .contact-us {
         margin-top: 7%;
-        padding-bottom: 2%;
         margin-left: 18% !important;
         margin-right: 18% !important;
+        margin-bottom: 22.5%;
+        padding-bottom: 2%;
         width: 64% !important;
     }
     .about-us {
-        margin-top: 20%;
+        margin-top: 25%;
+        margin-bottom: 45%;
     }
     .about-us-clients {
         margin-left: 20% !important;
@@ -312,24 +323,25 @@ a:hover>div {
         width: 60% !important;
         margin-top: 2% !important;
     }
-    .project-row {
-        display: inline-flex !important;
-    }
 }
 
 
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
+    .main-carousel {
+        margin-top: 4% !important;
+        margin-bottom: 4.2% !important;
+    }
+    .project-row {
+        display: inline-flex !important;
+    }
     .project-content {
-        margin: 7% 5.5% 5% 5.5% !important;
+        margin: 4% 5.5% 8.1% 5.5% !important;
         width: 89% !important;
     }
-    .about-us {
-        margin-top: 8%;
-    }
     .reel {
-        margin: 4% 5.5% 3% 5.5%;
+        margin: 4% 5.5% 6.6% 5.5%;
     }
     .reel>img {
         height: 55vh;
@@ -342,6 +354,11 @@ a:hover>div {
     }
     .contact-us {
         margin-top: 4%;
+        margin-bottom: 0 !important;
+    }
+    .about-us {
+        margin-top: 12% !important;
+        margin-bottom: 11% !important;
     }
     .about-us-clients {
         margin-left: 26%;
