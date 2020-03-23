@@ -4,140 +4,163 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 */
 
 .bg-dark {
-    background-color: #000e18 !important;
-    min-height: 85px !important;
+  background-color: #000e18 !important;
+  min-height: 85px !important;
+}
+
+.lang-selection-item {
+  margin-top: 20px !important;
+  margin-bottom: 15px !important;
+  margin-left: 30px !important;
 }
 
 @media (min-width: 310px) {
-    .navbar-brand>img {
-        height: 35px;
-        width: 180px;
-    }
-    .navbar-brand {
-        margin-top: 0;
-        margin-left: 17%;
-        margin-right: 0px;
-    }
-    .navbar-dark .navbar-toggler {
-        margin-top: none !important;
-        margin-right: -10px;
-    }
-    .navbar-dark .navbar-toggler {
-        border-color: transparent;
-    }
+  .navbar-brand > img {
+    height: 35px;
+    width: 180px;
+  }
+  .navbar-brand {
+    margin-top: 0;
+    margin-left: 17%;
+    margin-right: 0px;
+  }
+  .navbar-dark .navbar-toggler {
+    margin-top: none !important;
+    margin-right: -10px;
+  }
+  .navbar-dark .navbar-toggler {
+    border-color: transparent;
+  }
 }
 
 @media (min-width: 350px) {
-    .navbar-brand {
-        margin-left: 22%;
-    }
+  .navbar-brand {
+    margin-left: 22%;
+  }
 }
 
 @media (min-width: 400px) {
-    .navbar-brand {
-        margin-left: 24.5%;
-    }
-    .navbar-brand>img {
-        height: 42px;
-        width: 195px;
-    }
+  .navbar-brand {
+    margin-left: 24.5%;
+  }
+  .navbar-brand > img {
+    height: 42px;
+    width: 195px;
+  }
 }
-
 
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
-    .navbar-brand>img {
-        margin-top: auto !important;
-        margin-bottom: auto !important;
-        height: 54px;
-        width: 250px;
-    }
-    .bg-dark {
-        min-height: 150px !important;
-    }
+  .navbar-brand > img {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    height: 54px;
+    width: 250px;
+  }
+  .bg-dark {
+    min-height: 150px !important;
+  }
 }
-
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 
 @media (min-width: 768px) {
-    .navbar-brand>img {
-        margin-bottom: 30px;
-        margin-right: 2rem !important;
-    }
-    .navbar-brand {
-        margin-left: 33%;
-    }
-    .navbar-collapse {
-        margin-top: -18px;
-    }
-    .nav-link {
-        color: #767b81;
-        margin-left: 25px !important;
-        margin-right: 25px !important;
-    }
-    .desktop-navbar {
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%;
-    }
+  .navbar-brand > img {
+    margin-bottom: 30px;
+    margin-right: 2rem !important;
+  }
+  .navbar-brand {
+    margin-left: 33%;
+  }
+  .navbar-collapse {
+    margin-top: -18px;
+  }
+  .nav-link {
+    color: #767b81;
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+  }
+  .desktop-navbar {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
 }
-
 
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    .navbar-brand {
-        margin-left: 0;
-    }
-    navbar-brand>img {
-        margin-left: 0 !important;
-        margin-top: auto;
-        margin-bottom: auto;
-        margin-right: 3rem !important;
-    }
-    .navbar-collapse {
-        margin-top: -18px;
-    }
-    .nav-item {
-        text-align: center;
-    }
-    .nav-link {
-        color: #767b81;
-        margin-left: 25px !important;
-        margin-right: 25px !important;
-    }
-    .navbar-nav {
-        margin-top: 30px !important;
-    }
-    .desktop-navbar {
-        margin-left: 2%;
-        margin-right: 2%;
-        width: 96%;
-    }
+  .navbar-brand {
+    margin-left: 0;
+  }
+  navbar-brand > img {
+    margin-left: 0 !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 3rem !important;
+  }
+  .navbar-collapse {
+    margin-top: -18px;
+  }
+  .nav-item {
+    text-align: center;
+  }
+  .nav-link {
+    color: #767b81;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .lang-selection-item {
+    margin-top: 5px !important;
+    margin-left: 40px !important;
+    margin-right: 0 !important;
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+  .lang-selection-item > div > a:first-child {
+    margin-right: 5px !important;
+  }
+  .lang-selection-item > div > a:last-child {
+    margin-left: 5px !important;
+  }
+  .navbar-nav {
+    margin-top: 30px !important;
+  }
+  .desktop-navbar {
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 92%;
+  }
 }
-
 
 /* Extra large devices (large desktops, 1200px and up) */
 
 @media (min-width: 1200px) {
-    navbar-brand>img {
-        margin-left: 0 !important;
-        margin-bottom: 30px;
-        margin-right: 3rem !important;
-    }
-    .navbar-collapse {
-        margin-top: -18px;
-    }
-    .nav-link {
-        color: #767b81;
-        margin-left: 25px !important;
-        margin-right: 25px !important;
-    }
-    .desktop-navbar {
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%;
-    }
+  navbar-brand > img {
+    margin-left: 0 !important;
+    margin-bottom: 30px;
+    margin-right: 3rem !important;
+  }
+  .navbar-collapse {
+    margin-top: -18px;
+  }
+  .nav-link {
+    color: #767b81;
+    width: 110px !important;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  .desktop-navbar {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+  .lang-selection-item {
+    margin-top: 5px !important;
+    margin-left: 30px !important;
+    margin-right: 0 !important;
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
 }
