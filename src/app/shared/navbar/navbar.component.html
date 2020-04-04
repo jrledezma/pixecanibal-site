@@ -56,13 +56,28 @@
 
         <li class="nav-item lang-selection-item">
           <div class="d-inline-flex">
-            <a class="languageItem" (click)="changeLanguage('spa')"
-              ><img src="assets/img/lang/spa.png" width="24px" height="24px"
-            /></a>
-            &nbsp;
             <a class="languageItem" (click)="changeLanguage('eng')"
-              ><img src="assets/img/lang/eng.png" width="24px" height="24px"
-            /></a>
+              ><span
+                class="badge language-badge"
+                [ngClass]="{
+                  'badge-dark': tranlateSrv.getDefaultLang() === 'spa',
+                  'badge-light': tranlateSrv.getDefaultLang() === 'eng'
+                }"
+                >ENG</span
+              ></a
+            >
+            &nbsp;
+
+            <a class="languageItem" (click)="changeLanguage('spa')">
+              <span
+                class="badge language-badge"
+                [ngClass]="{
+                  'badge-dark': tranlateSrv.getDefaultLang() === 'eng',
+                  'badge-light': tranlateSrv.getDefaultLang() === 'spa'
+                }"
+                >ESP</span
+              ></a
+            >
           </div>
         </li>
       </ul>

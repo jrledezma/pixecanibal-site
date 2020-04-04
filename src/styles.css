@@ -238,6 +238,21 @@ a:hover > div {
   opacity: 1;
 }
 
+.language-badge {
+  border-radius: 0 !important;
+  padding: 3px !important;
+  vertical-align: middle;
+}
+
+.badge-light {
+  background-color: #eeeeee !important;
+  color: #000e18 !important;
+}
+
+.badge-dark {
+  color: #eeeeee !important;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
