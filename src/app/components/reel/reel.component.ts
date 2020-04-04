@@ -1,6 +1,6 @@
 import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
 
-import Player from '@vimeo/player'
+import Player from '@vimeo/player';
 
 import { environment } from "../../../environments/environment";
 

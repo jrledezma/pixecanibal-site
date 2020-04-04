@@ -1,18 +1,23 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, AfterViewInit } from '@angular/core';
 
 import { ActivatedRoute, Router } from '@angular/router';
+import Player from '@vimeo/player';
 
 import * as projectData from '../../../projects.json';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-projects-detail',
   templateUrl: './projects-detail.component.html',
   styles: []
 })
-export class ProjectsDetailComponent implements OnInit {
+export class ProjectsDetailComponent implements OnInit, AfterViewInit {
 
   projectData: any;
   projectDataId: number;
+
+  @ViewChild('player_container', { static: false }) playerContainer;
+  private player: Player;
 
   constructor(private router: Router,
     private route: ActivatedRoute) {
@@ -30,6 +35,17 @@ export class ProjectsDetailComponent implements OnInit {
 
   ngOnInit() {
 
+  }
+
+  ngAfterViewInit() {
+    // child is set
+    this.player = new Player(this.playerContainer.nativeElement, {
+      id: environment.reelVideoUrl,
+      muted: false,
+      quality: '1080p',
+      controls: false,
+      color: '#000E18'
+    });
   }
 
 }

@@ -1,7 +1,26 @@
 <div class="project-detail animated fadeIn">
-    <p class="animated fadeIn slow">{{projectData.name}}</p>
-    <br>
-    <p class="animated fadeIn slow">{{projectData.description}}</p>
-    <br>
-    <img [src]="projectData.imgUrl" width="100%" style="margin-right: .5%; margin-left: .5%;" class="animated fadeIn slower">
+  <h3 class="animated fadeIn slow text-uppercase mt-3">
+    {{ projectData.name }}
+  </h3>
+  <br />
+  <p class="animated fadeIn slow project-detail-text-top">
+    <small>{{ projectData.detailDescriptionTop }}</small>
+  </p>
+  <br />
+  <div class="reel animated fadeIn">
+    <div
+      #player_container
+      class="d-block w-100 animated video-player-container"
+      frameborder="0"
+    ></div>
+  </div>
+  <img
+    [src]="projectData.imgUrl"
+    width="100%"
+    class="animated fadeIn slower img-fluid project-detail-img"
+  />
+  <br />
+  <p class="animated fadeIn slow project-detail-text-top">
+    <small>{{ projectData.detailDescriptionBottom }}</small>
+  </p>
 </div>
