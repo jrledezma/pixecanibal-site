@@ -124,7 +124,7 @@ iframe {
 }
 
 .project-description > h5 {
-  margin-top: 110px !important;
+  margin-top: 30% !important;
   margin-bottom: 0 !important;
 }
 
@@ -429,5 +429,14 @@ a:hover > div {
     margin-right: 26%;
     width: 48%;
     margin-top: 2%;
+  }
+  .project-description > h5 {
+    margin-top: 10% !important;
+  }
+
+  @media (min-width: 1200px) {
+    .project-description > h5 {
+      margin-top: 20% !important;
+    }
   }
 }
