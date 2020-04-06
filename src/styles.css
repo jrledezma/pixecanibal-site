@@ -145,10 +145,6 @@ a:hover > div {
   text-align: center;
 }
 
-.project-detail > img {
-  /*height: 30vh;*/
-}
-
 .reel {
   margin: 5% 4.5% 15% 4.5%;
 }
@@ -270,26 +266,10 @@ a:hover > div {
 }
 
 .project-detail-img {
-  margin-right: 5.5% !important;
-  margin-left: 5.5% !important;
-  width: 89% !important;
-  margin-top: -75px;
-}
-
-/* Small devices (landscape phones, 576px and up) */
-
-@media (min-width: 359px) {
-  .video-player-container {
-    float: left !important;
-    margin-top: -170px !important;
-  }
-
-  .project-detail-img {
-    margin-right: 4.5% !important;
-    margin-left: 4.5% !important;
-    width: 91% !important;
-    margin-top: -95px;
-  }
+  margin-right: 4.5% !important;
+  margin-left: 4.5% !important;
+  width: 91% !important;
+  margin-top: -12vh !important;
 }
 
 .project-detail-text-top {
@@ -299,13 +279,82 @@ a:hover > div {
   padding: 0;
 }
 
-@media (min-width: 400px) {
+.languageItem {
+  cursor: pointer;
+}
+
+.languageItem:first {
+  cursor: pointer;
+  margin-right: 3px;
+}
+
+.languageItem:last-child {
+  margin-left: 3px;
+}
+
+.languageItem:hover {
+  background-color: transparent;
+}
+
+.languageItem:hover > img {
+  filter: brightness(1.2);
+}
+
+.show-desktop {
+  display: none;
+}
+
+.show-mobile {
+  display: contents;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 359px) {
   .video-player-container {
-    margin-top: -150px !important;
+    margin-top: -20vh !important;
   }
 
   .project-detail-img {
-    margin-top: -105px;
+    margin-right: 4.5% !important;
+    margin-left: 4.5% !important;
+    width: 91% !important;
+    margin-top: -10vh !important;
+  }
+}
+
+@media (min-width: 370px) {
+  .project-detail-img {
+    margin-right: 4.5% !important;
+    margin-left: 4.5% !important;
+    width: 91% !important;
+    margin-top: -13vh !important;
+  }
+}
+
+@media (min-width: 400px) {
+  .video-player-container {
+    margin-top: -17vh !important;
+  }
+
+  .project-detail-img {
+    margin-top: -13vh !important;
+  }
+}
+
+@media (min-width: 435px) {
+  .video-player-container {
+    margin-top: -18vh !important;
+  }
+
+  .project-detail-img {
+    margin-top: -11vh !important;
+  }
+}
+
+@media (min-width: 435px) {
+  .project-detail-img {
+    margin-top: -8vh !important;
   }
 }
 
@@ -316,11 +365,31 @@ a:hover > div {
     margin-right: 6%;
     width: 88%;
   }
+  .video-player-container {
+    margin-top: -15vh !important;
+  }
+
+  .project-detail-img {
+    margin-top: -6vh !important;
+  }
+}
+
+@media (min-width: 620px) {
+  .project-detail-img {
+    margin-top: -4vh !important;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 
 @media (min-width: 768px) {
+  .show-desktop {
+    display: flex;
+  }
+
+  .show-mobile {
+    display: none;
+  }
   .fluid-content {
     margin-top: 1%;
     margin-left: 2% !important;
@@ -380,29 +449,20 @@ a:hover > div {
     margin-bottom: 5% !important;
   }
   .reel {
-    margin-top: 10%;
+    margin-top: 26%;
+  }
+  .video-player-container {
+    margin-top: -29vh !important;
+  }
+  .project-detail-img {
+    margin-top: -5vh !important;
   }
 }
 
-.languageItem {
-  cursor: pointer;
-}
-
-.languageItem:first {
-  cursor: pointer;
-  margin-right: 3px;
-}
-
-.languageItem:last-child {
-  margin-left: 3px;
-}
-
-.languageItem:hover {
-  background-color: transparent;
-}
-
-.languageItem:hover > img {
-  filter: brightness(1.2);
+@media (min-width: 920px) {
+  .project-detail-img {
+    margin-top: -3vh !important;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -426,7 +486,7 @@ a:hover > div {
     margin-bottom: 40%;
   }
   .reel {
-    margin: 10% 5.5% 12% 5.5%;
+    margin: 6% 5.5% 12% 5.5%;
   }
   .reel > img {
     height: 40vh;
@@ -459,20 +519,53 @@ a:hover > div {
   }
 
   .video-player-container {
-    margin-top: -230px !important;
+    margin-top: -10vh !important;
   }
 
   .project-detail-img {
     margin-right: 5.5% !important;
     margin-left: 5.5% !important;
     width: 89% !important;
-    margin-top: -125px;
+    margin-top: -3vh !important;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1024px) {
+  .video-player-container {
+    margin-top: -12vh !important;
+  }
+
   .project-detail-img {
-    margin-top: -120px;
+    margin-right: 5.5% !important;
+    margin-left: 5.5% !important;
+    width: 89% !important;
+    margin-top: 0 !important;
+  }
+}
+
+@media (min-width: 1100px) {
+  .video-player-container {
+    margin-top: -8vh !important;
+  }
+
+  .project-detail-img {
+    margin-right: 5.5% !important;
+    margin-left: 5.5% !important;
+    width: 89% !important;
+    margin-top: 1vh !important;
+  }
+}
+
+@media (min-width: 1155px) {
+  .video-player-container {
+    margin-top: -8vh !important;
+  }
+
+  .project-detail-img {
+    margin-right: 5.5% !important;
+    margin-left: 5.5% !important;
+    width: 89% !important;
+    margin-top: -1vh !important;
   }
 }
 
@@ -520,8 +613,12 @@ a:hover > div {
     margin-top: 10% !important;
   }
 
+  .video-player-container {
+    margin-top: -15vh !important;
+  }
+
   .project-detail-img {
-    margin-top: -60px !important;
+    margin-top: -8vh !important;
   }
 }
 @media (min-width: 1300px) {
@@ -531,10 +628,21 @@ a:hover > div {
 
   .video-player-container {
     float: left !important;
-    margin-top: -85px !important;
+    margin-top: -12vh !important;
   }
 
   .project-detail-img {
-    margin-top: 10px !important;
+    margin-top: -6vh !important;
+  }
+}
+
+@media (min-width: 1620px) {
+  .video-player-container {
+    float: left !important;
+    margin-top: -4vh !important;
+  }
+
+  .project-detail-img {
+    margin-top: auto !important;
   }
 }

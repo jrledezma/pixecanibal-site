@@ -1,7 +1,63 @@
 <div class="project-detail animated fadeIn">
-  <h3 class="animated fadeIn slow text-uppercase mt-3">
-    {{ projectData.name }}
-  </h3>
+  <div class="col-sm-12 mt-4">
+    <div class="row show-desktop">
+      <div class="col-sm-2">
+        <a
+          role="button"
+          class="ml-0"
+          (click)="previousProject()"
+          style="cursor: pointer;"
+        >
+          <i class="fa fa-chevron-left"></i>
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <h3 class="animated fadeIn slow text-uppercase">
+          {{ projectData.name }}
+        </h3>
+      </div>
+      <div class="col-sm-2">
+        <a
+          role="button"
+          class="mr-0"
+          (click)="nextProject()"
+          style="cursor: pointer;"
+        >
+          <i class="fa fa-chevron-right"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="row show-mobile">
+      <div class="d-inline-flex w-100">
+        <a
+          role="button"
+          class="ml-0 float-left mt-1"
+          (click)="previousProject()"
+          style="width: 20%;"
+        >
+          <i class="fa fa-chevron-left"></i>
+        </a>
+        &nbsp;
+        <h3
+          class="animated fadeIn slow text-uppercase text-center"
+          style="width: 80%;"
+        >
+          {{ projectData.name }}
+        </h3>
+        &nbsp;
+        <a
+          role="button"
+          class="mr-0 float-right mt-1"
+          (click)="nextProject()"
+          style="width: 20%;"
+        >
+          <i class="fa fa-chevron-right"></i>
+        </a>
+      </div>
+      <div class="row"></div>
+    </div>
+  </div>
   <br />
   <p class="animated fadeIn slow project-detail-text-top">
     <small>{{ projectData.detailDescriptionTop }}</small>

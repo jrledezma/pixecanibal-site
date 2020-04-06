@@ -5,6 +5,7 @@ import * as projectsData from '../../../../src/projects.json'
 
 import { ProjectsDetailComponent } from '../projects-detail/projects-detail.component';
 import { NgbModal, NgbModalOptions } from '@ng-bootstrap/ng-bootstrap';
+import { CacheDataService } from '../../services/cache-data.service';
 
 @Component({
   selector: 'app-projects',
@@ -15,7 +16,8 @@ export class ProjectsComponent implements OnInit {
 
   projectDataList = (<any>projectsData).default;
 
-  constructor(private router: Router) {
+  constructor(private router: Router,
+    private cacheDataSrv: CacheDataService) {
     console.log(this.projectDataList);
   }
 
@@ -23,7 +25,8 @@ export class ProjectsComponent implements OnInit {
   }
 
   open(project: any) {
-    this.router.navigate(['proyectos', project.prjId])
+    this.cacheDataSrv.setProjectId(project.prjId);
+    this.router.navigate(['/detalleproyecto']);
     /*
     const modalOptions: NgbModalOptions = {
       backdrop: true,

@@ -10,13 +10,13 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 
 
 const routes: Routes = [
-  { path: "", component: HomeComponent },
-  { path: "proyectos", component: ProjectsComponent },
-  { path: "proyectos/:project", component: ProjectsDetailComponent },
-  { path: "reel", component: ReelComponent },
-  { path: "acercade", component: AboutUsComponent },
-  { path: "contacto", component: ContactUsComponent },
-  { path: "**", pathMatch: "full", redirectTo: "" }
+  { path: '', component: HomeComponent },
+  { path: 'proyectos', component: ProjectsComponent },
+  { path: 'detalleproyecto', component: ProjectsDetailComponent },
+  { path: 'reel', component: ReelComponent },
+  { path: 'acercade', component: AboutUsComponent },
+  { path: 'contacto', component: ContactUsComponent },
+  { path: '**', pathMatch: 'full', redirectTo: '' }
 ];
 
 @NgModule({
