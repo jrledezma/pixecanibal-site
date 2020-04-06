@@ -24,7 +24,7 @@ export class ProjectsDetailComponent implements OnInit, AfterViewInit {
   constructor(private router: Router,
     private route: ActivatedRoute,
     private cacheDataSrv: CacheDataService) {
-    this.projectDataId = this.cacheDataSrv.getProjectId();
+    this.projectDataId = this.cacheDataSrv.getProjectId() || this.projects[0].prjId;
   }
 
   ngOnInit() {
