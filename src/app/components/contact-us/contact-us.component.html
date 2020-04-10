@@ -1,6 +1,10 @@
 <div class="contact-us animated fadeIn">
   <h3 class="mb-4">{{ "contactUs" | translate }}</h3>
-  <form [formGroup]="contactForm" autocomplete="off" (ngSubmit)="sendMessage()">
+  <form
+    class="animated fadeIn slow"
+    [formGroup]="contactForm"
+    autocomplete="off"
+  >
     <div class="form-row">
       <div class="form-group col-sm-6">
         <label for="name ">{{ "name" | translate }}</label>
@@ -69,9 +73,10 @@
     <div class="form-row">
       <div class="col-sm-12 mr-0">
         <button
-          type="button "
+          type="submit"
           class="btn btn-dark float-right mt-3"
           [disabled]="contactForm.invalid"
+          (click)="sendMail()"
         >
           {{ "send" | translate }}
         </button>

@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  reelVideoUrl: 349083552
+  reelVideoUrl: 349083552,
+  contactSrv: 'http://localhost:5003/api/contactservice'
 };
 
 /*

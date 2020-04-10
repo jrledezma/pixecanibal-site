@@ -5,6 +5,9 @@ import {
   FormControl
 } from '@angular/forms';
 
+import swal from 'sweetalert2';
+import { ContactService } from '../../services/contact.service';
+
 @Component({
   selector: 'app-contact-us',
   templateUrl: './contact-us.component.html',
@@ -19,9 +22,9 @@ export class ContactUsComponent implements OnInit {
     email: string,
     subject: string,
     message: string
-  }
+  };
 
-  constructor() {
+  constructor(private contactSrv: ContactService) {
     this.createContactObject(false);
   }
 
@@ -29,7 +32,29 @@ export class ContactUsComponent implements OnInit {
     this.createForm();
   }
 
-  sendMessage() { }
+  sendMail() {
+    swal.fire({
+      title: 'Enviando Correo',
+      text: 'Por favor espere mientras se realiza el contacto con Pixel Canibal.',
+      icon: 'info'
+    });
+    swal.showLoading();
+    this.contactSrv.SendEmail(this.contactForm.value)
+      .subscribe((observer: any) => {
+        swal.fire({
+          title: 'Correo Enviado',
+          text: 'El mensaje fue enviado satisfactoriamente, gracias por contactarnos.',
+          icon: 'success'
+        });
+      }, (error: any) => {
+        console.log(error);
+        swal.fire({
+          title: 'Ocurrió un Error',
+          text: 'No fue posible envíar el mensaje, por favor intentelo nuevamente.',
+          icon: 'error'
+        });
+      });
+  }
 
   private createForm() {
     this.contactForm = new FormGroup({
