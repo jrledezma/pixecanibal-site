@@ -44,7 +44,7 @@ export class ProjectsDetailComponent implements OnInit, AfterViewInit {
   ngAfterViewInit() {
     // child is set
     this.player = new Player(this.playerContainer.nativeElement, {
-      id: environment.reelVideoUrl,
+      id: this.projectData.urlVideo,
       muted: false,
       quality: '1080p',
       controls: false,

@@ -1,137 +1,101 @@
 [
   {
     "prjId": 1,
-    "name": "proyecto 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel1.png"
+    "name": "Cardio Control",
+    "detailDescriptionTop": "Cardio Control de Abbott es un programa dónde el médico puede dirigir a sus pacientes y obtener nuevas perspectivas de su estado de salud vascular que le permitirá evaluarlos con más detalle, además puede obtener información de la presión arterial central de sus pacientes, la rigidez arterial, la onda de pulso, y el perfil hemodinámico. Disfrutamos mucho trabajar en un diseño muy minimalista, líneas en alto-contraste y una paleta de color súper restringida.",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
+    "urlVideo": "https://vimeo.com/407611056",
+    "thumbnailUrl": "/assets/img/projects/1/thumbnail.png",
+    "imgUrl": "/assets/img/projects/1/desktop.png"
   },
   {
     "prjId": 2,
-    "name": "proyecto 2",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel2.png"
+    "name": "Webex Team",
+    "detailDescriptionTop": "Juan pertenece a una serie de videos en los que se presentan problemáticas digitales, en los que él y GBM son la solución a dichos problemas. Una vez más, Juan lidera un proyecto de innovación digital para su empresa y nos muestra cómo utilizar la herramienta Webex Teams de manera Segura, Sencilla y Ágil.",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
+    "urlVideo": "https://vimeo.com/407612632",
+    "thumbnailUrl": "/assets/img/projects/2/thumbnail.png",
+    "imgUrl": "/assets/img/projects/2/desktop.png"
   },
   {
     "prjId": 3,
-    "name": "proyecto 3",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel3.png"
+    "name": "Pediasure Nueva Imagen",
+    "detailDescriptionTop": "Pediasure tiene nueva imagen, y nos encargaron realizar una serie de tres jingles animados en dónde se resalten los beneficios, preparación y evidencia clínica. Todo el proceso fue súper divertido desde escribir la canción, la musicalización, grabar a los chicos cantando, la locución, ni hablar del diseño y la animación 2d de líquidos, el modelado y la animación 3d de los product shots.",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
+    "urlVideo": "https://vimeo.com/360420890",
+    "thumbnailUrl": "/assets/img/projects/3/thumbnail.png",
+    "imgUrl": "/assets/img/projects/3/desktop.png"
   },
   {
     "prjId": 4,
-    "name": "proyecto 4",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel4.png"
+    "name": "Felices Fiestas",
+    "detailDescriptionTop": "Como todos los años GBM, envía a sus clientes una tarjeta agradeciendo la confianza en sus servicios.\nPues nosotros agradecemos a GBM por confiar una vez más en nuestro trabajo y darnos vía libre para realizar este bonito proyecto.",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
+    "urlVideo": "https://vimeo.com/407614471",
+    "thumbnailUrl": "/assets/img/projects/4/thumbnail.png",
+    "imgUrl": "/assets/img/projects/4/desktop.png"
   },
   {
     "prjId": 5,
-    "name": "proyecto 5",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel1.png"
+    "name": "Sistema de Planilla",
+    "detailDescriptionTop": "La Sociedad de Seguros de Vida del Magisterio Nacional, ha implementado una aplicación web para que los patronos puedan realizar el trámite de presentación de planillas.  Con este video tutorial mostramos el paso a paso para realizar este trámite desde la comodidad de su hogar u oficina.",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
+    "urlVideo": "https://vimeo.com/407616717",
+    "thumbnailUrl": "/assets/img/projects/5/thumbnail.png",
+    "imgUrl": "/assets/img/projects/5/desktop.png"
   },
   {
     "prjId": 6,
-    "name": "proyecto 6",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel2.png"
+    "name": "Similac vs Leche",
+    "detailDescriptionTop": "Similac 3 a diferencia de la leche de vaca, contiene HMO 2’-FL*, un inmundo nutriente que ayuda a fortalecer las defensas de los más chicos. Este proyecto se compone de 2 comerciales de 20 segundos para la plataforma de YouTube, para la región de Centroamérica.",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
+    "urlVideo": "https://vimeo.com/407617032",
+    "thumbnailUrl": "/assets/img/projects/6/thumbnail.png",
+    "imgUrl": "/assets/img/projects/6/desktop.png"
   },
   {
     "prjId": 7,
-    "name": "proyecto 7",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
+    "name": "Google Class",
+    "detailDescriptionTop": "En colaboración con nuestros amigos de Kaboom Productions, realizamos una serie de tutoriales para Google, donde se explican detalladamente los beneficios, trucos y utilidades de su sistema operativo Android.",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
     "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel3.png"
+    "thumbnailUrl": "/assets/img/projects/7/thumbnail.png",
+    "imgUrl": "/assets/img/projects/7/desktop.png"
   },
   {
     "prjId": 8,
-    "name": "proyecto 8",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
+    "name": "Stop Youth Vaping",
+    "detailDescriptionTop": "Motion Graphics realizados para una campaña externa, que busca eliminar y concientizar sobre el uso de vaporizadores en la población más joven.",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
     "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel4.png"
+    "thumbnailUrl": "/assets/img/projects/8/thumbnail.png",
+    "imgUrl": "/assets/img/projects/8/desktop.png"
   },
   {
     "prjId": 9,
-    "name": "proyecto 9",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel1.png"
+    "name": "Guardianes del Agua",
+    "detailDescriptionTop": "Campaña publicitaria realizada de la mano con EC Consultores, para la Municipalidad de Belén. Iniciamos con el rediseño de la hormiguita COYO, él es un Guardián del Agua, y nos da algunos consejos para utilizar el preciado líquido de la manera más responsable. Se realizaron distintos materiales, entre ellos pautas para cine, redes sociales, vallas, mupis, entre otros.",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
+    "urlVideo": "https://vimeo.com/407616239",
+    "thumbnailUrl": "/assets/img/projects/9/thumbnail.png",
+    "imgUrl": "/assets/img/projects/9/desktop.png"
   },
   {
     "prjId": 10,
-    "name": "proyecto 10",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
+    "name": "Ensure Cubeta",
+    "detailDescriptionTop": "En este video mostramos los beneficios que tiene Ensure Advance en los músculos, haciendo la comparación de estos como si fueran una cubeta rota. ",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
     "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel2.png"
+    "thumbnailUrl": "/assets/img/projects/10/thumbnail.png",
+    "imgUrl": "/assets/img/projects/10/desktop.png"
   },
   {
     "prjId": 11,
-    "name": "proyecto 11",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel3.png"
-  },
-  {
-    "prjId": 12,
-    "name": "proyecto 12",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel4.png"
-  },
-  {
-    "prjId": 13,
-    "name": "proyecto 13",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel1.png"
-  },
-  {
-    "prjId": 14,
-    "name": "proyecto 14",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel2.png"
-  },
-  {
-    "prjId": 15,
-    "name": "proyecto 15",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus leo ipsumtransparent.",
-    "detailDescriptionTop": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "detailDescriptionBottom": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet ipsum non eros porttitor tincidunt. Donec maximus ultricies massa id hendrerit. Integer ut metus vitae turpis scelerisque porta. Nam ut sem tellus. Nunc sed metus elit. Integer laoreet ligula nec purus lobortis hendrerit. Duis egestas diam varius, pellentesque felis eget, sollicitudin libero. Suspendisse varius, lectus vitae mattis bibendum, mi tellus placerat metus, eget dignissim nunc turpis quis elit. ",
-    "urlVideo": "",
-    "imgUrl": "/assets/img/maincarousel3.png"
+    "name": "Pedialyte, Hidratación a Otro Nivel",
+    "detailDescriptionTop": "Pedialyte tiene más de 50 años de hidratar niños y adultos, pero existía un problema... El consumidor no sabía cual de sus dos presentaciones utilizar para ciertos tipos de deshidratación. Realizamos una serie de videos informativos donde explicamos de una manera sencilla, cada tipo de deshidratación, sus síntomas y cuidados.",
+    "detailDescriptionBottom": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
+    "urlVideo": "https://vimeo.com/407617608",
+    "thumbnailUrl": "/assets/img/projects/11/thumbnail.png",
+    "imgUrl": "/assets/img/projects/11/desktop.png"
   }
 ]
