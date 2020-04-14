@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewChild, AfterViewInit } from '@angular/core';
+import { Component, OnInit, Input, ViewChild, AfterViewInit, ChangeDetectorRef } from '@angular/core';
 
 import { ActivatedRoute, Router } from '@angular/router';
 import Player from '@vimeo/player';
@@ -16,6 +16,7 @@ export class ProjectsDetailComponent implements OnInit, AfterViewInit {
 
   projectData: any = {};
   projectDataId = '';
+  showPlayer = true;
   private projects = (projectData as any).default;
 
   @ViewChild('player_container', { static: false }) playerContainer;
@@ -23,6 +24,7 @@ export class ProjectsDetailComponent implements OnInit, AfterViewInit {
 
   constructor(private router: Router,
     private route: ActivatedRoute,
+    private changeDetector: ChangeDetectorRef,
     private cacheDataSrv: CacheDataService) {
     this.projectDataId = this.cacheDataSrv.getProjectId() || this.projects[0].prjId;
   }
@@ -30,8 +32,6 @@ export class ProjectsDetailComponent implements OnInit, AfterViewInit {
   ngOnInit() {
     for (const prj of this.projects) {
       if (prj.prjId === this.projectDataId) {
-        console.clear();
-        console.log(this.projectData);
         this.projectData = prj;
         break;
       }
@@ -53,8 +53,6 @@ export class ProjectsDetailComponent implements OnInit, AfterViewInit {
     for (const prj of this.projects) {
       if (prj.prjId === this.projectDataId) {
         this.projectData = prj;
-        console.clear();
-        console.log(this.projectData);
         break;
       }
     }
@@ -69,7 +67,6 @@ export class ProjectsDetailComponent implements OnInit, AfterViewInit {
       if (prj.prjId === this.projectDataId) {
         break;
       }
-      console.log(projectIndex);
       projectIndex++;
     }
     if (this.projects[projectIndex - 1]) {
@@ -78,6 +75,33 @@ export class ProjectsDetailComponent implements OnInit, AfterViewInit {
       this.projectData = this.projects[this.projects.length - 1];
     }
     this.projectDataId = this.projectData.prjId;
+
+    if (!this.projectData.urlVideo) {
+      this.showPlayer = false;
+      this.player.destroy();
+      return;
+    }
+    if (!this.projectData.urlVideo) {
+      this.showPlayer = false;
+      this.player.destroy();
+      return;
+    }
+    this.player.getVideoUrl()
+      .then(result => {
+        this.showPlayer = true;
+        this.player.id = this.projectData.urlVideo;
+        this.player.loadVideo(this.projectData.urlVideo);
+        this.changeDetector.detectChanges();
+      })
+      .catch(error => {
+        this.player = new Player(this.playerContainer.nativeElement, {
+          id: this.projectData.urlVideo,
+          muted: false,
+          quality: '1080p',
+          controls: false,
+          color: '#000E18'
+        });
+      });
   }
 
   nextProject() {
@@ -88,13 +112,34 @@ export class ProjectsDetailComponent implements OnInit, AfterViewInit {
       }
       projectIndex++;
     }
-    console.log(projectIndex);
     if (this.projects[projectIndex + 1]) {
       this.projectData = this.projects[projectIndex + 1];
     } else {
       this.projectData = this.projects[0];
     }
     this.projectDataId = this.projectData.prjId;
+
+    if (!this.projectData.urlVideo) {
+      this.showPlayer = false;
+      this.player.destroy();
+      return;
+    }
+    this.player.getVideoUrl()
+      .then(result => {
+        this.showPlayer = true;
+        this.player.id = this.projectData.urlVideo;
+        this.player.loadVideo(this.projectData.urlVideo);
+        this.changeDetector.detectChanges();
+      })
+      .catch(error => {
+        this.player = new Player(this.playerContainer.nativeElement, {
+          id: this.projectData.urlVideo,
+          muted: false,
+          quality: '1080p',
+          controls: false,
+          color: '#000E18'
+        });
+      });
   }
 
 }
