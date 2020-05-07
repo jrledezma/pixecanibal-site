@@ -6,6 +6,7 @@ import * as projectsData from '../../../../src/projects.json'
 import { ProjectsDetailComponent } from '../projects-detail/projects-detail.component';
 import { NgbModal, NgbModalOptions } from '@ng-bootstrap/ng-bootstrap';
 import { CacheDataService } from '../../services/cache-data.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-projects',
@@ -16,7 +17,8 @@ export class ProjectsComponent implements OnInit {
 
   projectDataList = (<any>projectsData).default;
 
-  constructor(private router: Router,
+  constructor(public tranlateSrv: TranslateService,
+    private router: Router,
     private cacheDataSrv: CacheDataService) {
     console.log(this.projectDataList);
   }

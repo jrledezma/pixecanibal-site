@@ -574,7 +574,9 @@ a:hover > div {
     margin: 2% 19.5% 15% 19.5%;
   }
   .project-detail > img {
-    height: 55vh;
+    /*height: 55vh;*/
+    max-width: calc(177.778vh);
+    height: calc(56.25vw);
   }
   .contact-us {
     margin-top: 4%;

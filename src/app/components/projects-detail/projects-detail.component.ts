@@ -2,6 +2,7 @@ import { Component, OnInit, Input, ViewChild, AfterViewInit, ChangeDetectorRef }
 
 import { ActivatedRoute, Router } from '@angular/router';
 import Player from '@vimeo/player';
+import { TranslateService } from '@ngx-translate/core';
 
 import * as projectData from '../../../projects.json';
 import { environment } from 'src/environments/environment';
@@ -22,7 +23,8 @@ export class ProjectsDetailComponent implements OnInit, AfterViewInit {
   @ViewChild('player_container', { static: false }) playerContainer;
   private player: Player;
 
-  constructor(private router: Router,
+  constructor(public tranlateSrv: TranslateService,
+    private router: Router,
     private route: ActivatedRoute,
     private changeDetector: ChangeDetectorRef,
     private cacheDataSrv: CacheDataService) {

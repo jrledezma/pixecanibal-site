@@ -12,8 +12,17 @@
         </a>
       </div>
       <div class="col-sm-8">
-        <h3 class="animated fadeIn slow text-uppercase">
-          {{ projectData.name }}
+        <h3
+          *ngIf="tranlateSrv.getDefaultLang() === 'spa'"
+          class="animated fadeIn slow text-uppercase"
+        >
+          {{ projectData.nameSpa }}
+        </h3>
+        <h3
+          *ngIf="tranlateSrv.getDefaultLang() === 'eng'"
+          class="animated fadeIn slow text-uppercase"
+        >
+          {{ projectData.nameEng }}
         </h3>
       </div>
       <div class="col-sm-2">
@@ -40,10 +49,18 @@
         </a>
         &nbsp;
         <h3
+          *ngIf="tranlateSrv.getDefaultLang() === 'spa'"
           class="animated fadeIn slow text-uppercase text-center"
           style="width: 80%;"
         >
-          {{ projectData.name }}
+          {{ projectData.nameSpa }}
+        </h3>
+        <h3
+          *ngIf="tranlateSrv.getDefaultLang() === 'eng'"
+          class="animated fadeIn slow text-uppercase text-center"
+          style="width: 80%;"
+        >
+          {{ projectData.nameEng }}
         </h3>
         &nbsp;
         <a
@@ -59,8 +76,17 @@
     </div>
   </div>
   <br />
-  <p class="animated fadeIn slow project-detail-text-top">
-    <small>{{ projectData.detailDescriptionTop }}</small>
+  <p
+    *ngIf="tranlateSrv.getDefaultLang() === 'spa'"
+    class="animated fadeIn slow project-detail-text-top"
+  >
+    <small>{{ projectData.detailDescriptionTopSpa }}</small>
+  </p>
+  <p
+    *ngIf="tranlateSrv.getDefaultLang() === 'eng'"
+    class="animated fadeIn slow project-detail-text-top"
+  >
+    <small>{{ projectData.detailDescriptionTopEng }}</small>
   </p>
   <br />
   <div class="reel animated fadeIn">
@@ -76,7 +102,16 @@
     class="animated fadeIn slower img-fluid project-detail-img"
   />
   <br />
-  <p class="animated fadeIn slow project-detail-text-top">
-    <small>{{ projectData.detailDescriptionBottom }}</small>
+  <p
+    *ngIf="tranlateSrv.getDefaultLang() === 'spa'"
+    class="animated fadeIn slow project-detail-text-top"
+  >
+    <small>{{ projectData.detailDescriptionBottomSpa }}</small>
+  </p>
+  <p
+    *ngIf="tranlateSrv.getDefaultLang() === 'eng'"
+    class="animated fadeIn slow project-detail-text-top"
+  >
+    <small>{{ projectData.detailDescriptionBottomEng }}</small>
   </p>
 </div>
