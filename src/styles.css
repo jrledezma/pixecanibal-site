@@ -55,10 +55,10 @@ iframe {
 }
 
 .main-carousel {
-  margin-top: 10%;
+  margin-top: 35%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 9%;
+  margin-bottom: 25%;
   width: 90%;
 }
 
@@ -102,7 +102,7 @@ iframe {
 }
 
 .carousel-inner > div > img {
-  height: 60vh !important;
+  /*height: 60vh !important;*/
 }
 
 .about-us {
@@ -244,7 +244,7 @@ a:hover > div {
   margin-right: 4.5% !important;
   margin-left: 4.5% !important;
   width: 91% !important;
-  margin-top: -12vh !important;
+  top: -12vh !important;
 }
 
 .project-detail-text-top {
@@ -283,6 +283,19 @@ a:hover > div {
   display: contents;
 }
 
+.carousel-item {
+  transition: -webkit-transform 1s ease-in-out !important;
+  -webkit-transition: -webkit-transform 1s ease-in-out !important;
+  transition: transform 1s ease-in-out !important;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out !important;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out !important;
+}
+
+.carousel-item > img {
+  max-width: calc(177.778vh) !important;
+  height: calc(56.25vw) !important;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 359px) {
@@ -305,6 +318,10 @@ a:hover > div {
     width: 91% !important;
     margin-top: -13vh !important;
   }
+
+  .main-carousel {
+    margin-bottom: 40% !important;
+  }
 }
 
 @media (min-width: 400px) {
@@ -314,6 +331,10 @@ a:hover > div {
 
   .project-detail-img {
     margin-top: -13vh !important;
+  }
+
+  .main-carousel {
+    margin-bottom: 40% !important;
   }
 }
 
@@ -400,10 +421,10 @@ a:hover > div {
     resize: none;
   }
   .about-us {
-    margin-top: 20%;
+    margin-top: 15%;
     margin-left: 17% !important;
     margin-right: 17% !important;
-    margin-bottom: 25% !important;
+    margin-bottom: 17% !important;
     width: 66% !important;
   }
   .about-us-clients {
@@ -459,8 +480,8 @@ a:hover > div {
     width: 96% !important;
   }
   .main-carousel {
-    margin-top: 10%;
-    margin-bottom: 6% !important;
+    margin-top: 15%;
+    margin-bottom: 20% !important;
   }
   .project-content {
     margin-top: 10% !important;
@@ -583,14 +604,14 @@ a:hover > div {
     margin-bottom: 0 !important;
   }
   .about-us {
-    margin-top: 12% !important;
-    margin-bottom: 11% !important;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
   }
   .about-us-clients {
-    margin-left: 26%;
-    margin-right: 26%;
-    width: 48%;
-    margin-top: 2%;
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    width: 50% !important;
+    margin-top: 2% !important;
   }
   .project-description > h5 {
     margin-top: 10% !important;
