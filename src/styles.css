@@ -293,7 +293,8 @@ a:hover > div {
 
 .carousel-item > img {
   max-width: calc(177.778vh) !important;
-  height: calc(56.25vw) !important;
+  /*height: calc(56.25vw) !important;*/
+  height: auto !important;
 }
 
 /* Small devices (landscape phones, 576px and up) */
