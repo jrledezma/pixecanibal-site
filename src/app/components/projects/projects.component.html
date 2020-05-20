@@ -255,37 +255,5 @@
         </a>
       </div>
     </div>
-
-    <div class="project-row">
-      <div class="text-center project-img">
-        <a (click)="open(projectDataList[10])">
-          <img
-            [src]="projectDataList[10].thumbnailUrl"
-            class="card-img"
-            alt="..."
-          />
-          <div
-            class="card-img-overlay project-description animated fadeIn slower"
-          >
-            <h5
-              *ngIf="tranlateSrv.getDefaultLang() === 'spa'"
-              class="card-title text-center animated fadeIn slow text-uppercase"
-            >
-              {{ projectDataList[10].nameSpa }}
-            </h5>
-            <h5
-              *ngIf="tranlateSrv.getDefaultLang() === 'eng'"
-              class="card-title text-center animated fadeIn slow text-uppercase"
-            >
-              {{ projectDataList[10].nameEng }}
-            </h5>
-          </div>
-        </a>
-      </div>
-      <div class="text-center empty-block"></div>
-      <div class="text-center empty-block"></div>
-      <div class="text-center empty-block"></div>
-      <div class="text-center empty-block"></div>
-    </div>
   </div>
 </div>

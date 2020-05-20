@@ -79,24 +79,12 @@
     "detailDescriptionTopEng": "In collaboration with our friends from Kaboom Productions, we made a series of tutorials for Google, where the benefits, tricks and utilities of its Android operating system are explained in detail.",
     "detailDescriptionBottomSpa": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
     "detailDescriptionBottomEng": "All rights reserved. Total or partial reproduction of this work is not allowed without prior written permission from the copyright holders.",
-    "urlVideo": "",
+    "urlVideo": "https://vimeo.com/418603876",
     "thumbnailUrl": "/assets/img/projects/7/thumbnail.png",
     "imgUrl": "/assets/img/projects/7/desktop.png"
   },
   {
     "prjId": 8,
-    "nameSpa": "Stop Youth Vaping",
-    "nameEng": "Stop Youth Vaping",
-    "detailDescriptionTopSpa": "Motion Graphics realizados para una campaña externa, que busca eliminar y concientizar sobre el uso de vaporizadores en la población más joven.",
-    "detailDescriptionTopEng": "Motion Graphics made for an external campaign, which seeks to eliminate and raise awareness about the use of vaporizers in the younger population.",
-    "detailDescriptionBottomSpa": "Todos los derechos reservados. No se permite la reproducción total o parcial de esta obra sin autorización previa y por escrito de los titulares del copyright.",
-    "detailDescriptionBottomEng": "All rights reserved. Total or partial reproduction of this work is not allowed without prior written permission from the copyright holders.",
-    "urlVideo": "",
-    "thumbnailUrl": "/assets/img/projects/8/thumbnail.png",
-    "imgUrl": "/assets/img/projects/8/desktop.png"
-  },
-  {
-    "prjId": 9,
     "nameSpa": "Guardianes del Agua",
     "nameEng": "Water Guardians",
     "detailDescriptionTopSpa": "Campaña publicitaria realizada de la mano con EC Consultores, para la Municipalidad de Belén. Iniciamos con el rediseño de la hormiguita COYO, él es un Guardián del Agua, y nos da algunos consejos para utilizar el preciado líquido de la manera más responsable. Se realizaron distintos materiales, entre ellos pautas para cine, redes sociales, vallas, mupis, entre otros.",
@@ -108,7 +96,7 @@
     "imgUrl": "/assets/img/projects/9/desktop.png"
   },
   {
-    "prjId": 10,
+    "prjId": 8,
     "nameSpa": "Ensure Cubeta",
     "nameEng": "Ensure Bucket",
     "detailDescriptionTopSpa": "En este video mostramos los beneficios que tiene Ensure Advance en los músculos, haciendo la comparación de estos como si fueran una cubeta rota.",
@@ -120,7 +108,7 @@
     "imgUrl": "/assets/img/projects/10/desktop.png"
   },
   {
-    "prjId": 11,
+    "prjId": 10,
     "nameSpa": "Pedialyte, Hidratación a Otro Nivel",
     "nameEng": "Pedialyte, Hydration at Another Level",
     "detailDescriptionTopSpa": "Pedialyte tiene más de 50 años de hidratar niños y adultos, pero existía un problema... El consumidor no sabía cual de sus dos presentaciones utilizar para ciertos tipos de deshidratación. Realizamos una serie de videos informativos donde explicamos de una manera sencilla, cada tipo de deshidratación, sus síntomas y cuidados.",
