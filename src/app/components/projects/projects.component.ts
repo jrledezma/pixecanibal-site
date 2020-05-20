@@ -19,9 +19,7 @@ export class ProjectsComponent implements OnInit {
 
   constructor(public tranlateSrv: TranslateService,
     private router: Router,
-    private cacheDataSrv: CacheDataService) {
-    console.log(this.projectDataList);
-  }
+    private cacheDataSrv: CacheDataService) { }
 
   ngOnInit() {
   }
